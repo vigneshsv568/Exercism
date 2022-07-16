@@ -4,6 +4,9 @@ class RnaTranscription {
 
     String transcribe(String dnaString) {
 
+        
+
+
 
     }
 

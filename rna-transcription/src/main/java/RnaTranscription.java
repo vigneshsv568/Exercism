@@ -13,7 +13,10 @@ class RnaTranscription {
         check.put('T','A');
 
         for(int i=0;i<dnaString.length();i++){
-            char ch = check.containsKey(dnaString.charAt(i)) ? check.get(dnaString.charAt(i) ) : dnaString.charAt(i);
+            char ch = check.containsKey(dnaString.charAt(i)) ?
+                    check.get(dnaString.charAt(i) ) : dnaString.charAt(i);
+            // G ? C : 
+
             out += ch;
         }
         return out;

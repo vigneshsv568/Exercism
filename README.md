@@ -16,5 +16,5 @@ Given a DNA strand, its transcribed RNA strand is formed by replacing each nucle
 G -> C,
 C -> G,
 T -> A,
-A -> U,
+A -> U
 
